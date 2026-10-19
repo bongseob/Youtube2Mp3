@@ -1,0 +1,32 @@
+# 파이썬 가상환경 제외
+.venv/
+venv/
+env/
+
+# 파이썬 캐시 및 빌드 부산물 제외
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# 다운로드된 오디오/비디오 파일 및 출력 폴더 제외 (저작권 보호 및 용량 관리)
+downloads/
+*.mp3
+*.m4a
+*.webm
+*.wav
+*.ogg
+*.flac
+*.mp4
+*.part
+*.ytdl
+
+# IDE 및 OS 설정 파일 제외
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
